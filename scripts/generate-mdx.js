@@ -1,4 +1,5 @@
-const NotionParse = require('@kodaps/notion-parse');
+// const NotionParse = require('@kodaps/notion-parse');
+const NotionParse = require("../src/parse-notion")
 const dotenv = require('dotenv');
 
 dotenv.config();
@@ -9,7 +10,6 @@ const go = async () => {
     await NotionParse.parseNotion(process.env.NOTION_SECRET, './md', [
       {
         databaseId: process.env.NOTION_BLOG_DATABASE_ID || '',
-        contentType: 'content'
       },
       /*{
         databaseId: process.env.NOTION_POST_DATABASE_ID || '',

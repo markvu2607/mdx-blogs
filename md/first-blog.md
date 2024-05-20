@@ -1,6 +1,5 @@
 ---
 notionId: e625fb80-25cd-4e45-9732-90b9737e3284
-type: content
 tags:
   - something like this
   - any

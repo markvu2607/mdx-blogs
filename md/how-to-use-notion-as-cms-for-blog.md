@@ -1,6 +1,5 @@
 ---
 notionId: dd799386-271f-45f7-89e0-993854b6d63f
-type: content
 tags:
   - notion
   - cms

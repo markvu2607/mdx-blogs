@@ -11,6 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "@kodaps/notion-parse": "^0.0.14",
-    "dotenv": "^16.4.5"
+    "@notionhq/client": "^2.2.15",
+    "dotenv": "^16.4.5",
+    "jimp": "^0.22.12",
+    "notion-to-md": "^3.1.1",
+    "yaml": "^2.4.2"
   }
 }
