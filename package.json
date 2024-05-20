@@ -4,7 +4,6 @@
   "description": "",
   "main": "./scripts/generate-mdx.js",
   "scripts": {
-    "start": "npm run generate && npm run revalidate",
     "generate": "node ./scripts/generate-mdx.js",
     "revalidate": "node ./scripts/revalidate-web.js"
   },
