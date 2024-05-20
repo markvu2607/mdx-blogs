@@ -1,13 +1,18 @@
 ---
-notionId: e625fb80-25cd-4e45-9732-90b9737e3284
+notionId: 7aada15c-fad7-4931-a176-14a6630b4e3d
 tags:
   - something like this
   - any
-date: 2024-05-14
-title: First blog
+  - notion
+  - cms
+date: 2024-05-20
+title: first blog
 slug: first-blog
 
 ---
 
-First post ne!!
+this is my first post
+
+
+![avatar.jpeg](https://raw.githubusercontent.com/markvu2607/mdx-blogs/main/images/first-blog/avatar.jpeg)
 
