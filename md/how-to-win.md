@@ -12,5 +12,5 @@ slug: how-to-win
 This is test content!
 
 
-![image](https://github.com/markvu2607/mdx-blogs/blob/main/images/how-to-win/image.jpg)
+![image](https://raw.githubusercontent.com/markvu2607/mdx-blogs/main/images/how-to-win/image.jpg)
 

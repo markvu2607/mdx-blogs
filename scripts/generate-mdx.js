@@ -11,12 +11,6 @@ const go = async () => {
       {
         databaseId: process.env.NOTION_BLOG_DATABASE_ID || '',
       },
-      /*{
-        databaseId: process.env.NOTION_POST_DATABASE_ID || '',
-        contentType: 'Post',
-        languageField: 'lang',
-        filterFields: [ 'translation', 'createdAt', 'status', 'Type']
-      },*/
     ])
   }
 

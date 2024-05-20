@@ -269,7 +269,7 @@ const saveFile = async (frontMatter, languageField) => {
   const mdBody = n2m.toMarkdownString(mdblocks);
 
   for (let image of images) {
-    mdBody.parent = mdBody.parent.replace(image.url, "https://github.com/markvu2607/mdx-blogs/blob/main/" + image.src);
+    mdBody.parent = mdBody.parent.replace(image.url, "https://raw.githubusercontent.com/markvu2607/mdx-blogs/main/" + image.src);
   }
 
 
