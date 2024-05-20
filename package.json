@@ -4,7 +4,7 @@
   "description": "",
   "main": "./scripts/generate-mdx.js",
   "scripts": {
-    "generate": "node ./scripts/generate-mdx.js",
+    "generate": "rm -rf ./images ./md && node ./scripts/generate-mdx.js",
     "revalidate": "node ./scripts/revalidate-web.js"
   },
   "author": "",

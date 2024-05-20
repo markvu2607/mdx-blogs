@@ -250,7 +250,7 @@ const saveFile = async (frontMatter, languageField) => {
     const name = data[0];
     const ext = url.split("fm=")[1].split("&")[0]
 
-    const filename = name.split('/').pop() + "." + ext;
+    const filename = name.split('/').pop() + "-" + Date.now().toString() + "." + ext;
 
     const src = imagePath + filename;
 
