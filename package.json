@@ -4,7 +4,9 @@
   "description": "",
   "main": "./scripts/generate-mdx.js",
   "scripts": {
-    "generate": "node ./scripts/generate-mdx.js"
+    "start": "npm run generate && npm run revalidate",
+    "generate": "node ./scripts/generate-mdx.js",
+    "revalidate": "node ./scripts/revalidate-web.js"
   },
   "author": "",
   "license": "ISC",
